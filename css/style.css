@@ -568,7 +568,7 @@ body {
 
 @media(max-width: 753px){
   .wrapper{
-    max-width: 700px;
+    max-width: 600px;
   }
   .wrapper .card{
     width: calc(50% - 20px);
