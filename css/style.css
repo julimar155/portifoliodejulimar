@@ -210,9 +210,11 @@ body {
 }
 
 .botao-projeto {
-  border-radius: 30px;
+  border-radius: 8px;
   background: linear-gradient(to left, #000000 -2%, #000066 100%);
   text-align: center;
+  float:inline-start;
+  margin-right: 10rem;
   width: 100px;
   height: 23px;
   margin-right: auto;
@@ -220,7 +222,7 @@ body {
   transition: all ease-in-out 0.6s;
   border-style:solid;
   border-width: 1px;
-  box-shadow: 2px 2px 16px blue;
+  box-shadow: 2px 2px 16px #000055;
   -webkit-tap-highlight-color: transparent;
   border-color: #000042;
 }
@@ -245,6 +247,7 @@ body {
   text-decoration: none;
   margin-top:50%;
   color: lightgray;
+  font-weight: 200;
   transition: all ease-in-out 0.4s;
 }
 
