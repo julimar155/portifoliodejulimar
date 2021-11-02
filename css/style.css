@@ -569,8 +569,6 @@ body {
 @media(max-width: 753px){
   .wrapper{
     max-width: 700px;
-    margin-left:2rem;
-    margin-right: 2rem;
   }
   .wrapper .card{
     width: calc(50% - 20px);
@@ -581,8 +579,6 @@ body {
 @media(max-width: 505px){
   .wrapper{
     max-width: 400px;
-    margin-left:2rem;
-    margin-right:2rem;
     
   }
   .wrapper .card{
