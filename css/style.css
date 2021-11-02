@@ -580,6 +580,7 @@ body {
   .wrapper{
     max-width: 380px;
     align-items: center;
+    justify-content:center;
     
   }
   .wrapper .card{
