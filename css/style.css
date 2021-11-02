@@ -579,7 +579,7 @@ body {
 @media(max-width: 505px){
   .wrapper{
     max-width: 380px;
-    margin-left:2rem;
+    align-items: center;
     
   }
   .wrapper .card{
