@@ -129,6 +129,7 @@ body {
     opacity: 60%;
     transition:all ease-in-out 0.4s;
     font-size: 45px;
+    font-weight: 100;
   }
 
 .icone-insta {
@@ -480,7 +481,7 @@ body {
 /*skills*/
 
 .wrapper{
-  width: 800px;
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
