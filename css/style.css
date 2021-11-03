@@ -365,6 +365,10 @@ body {
   .habilidades p {
     margin-left:1rem;
   }
+
+  .box1 {
+    margin: 0rem 2rem 0rem;
+  }
   
 
 /*versão para telas 1920px*/
