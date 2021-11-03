@@ -352,6 +352,10 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.apresentacao {
+  text-align: left;
+}
+
 /*versão para telas 1920px*/
 
 @media (min-width:1920px) {
