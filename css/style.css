@@ -492,6 +492,15 @@ body {
    -webkit-tap-highlight-color: transparent;
   }
 
+  .habilidades {
+    justify-content: center;
+    font-size: 12px;
+}
+
+  .habilidades p {
+    margin-left: 4rem;
+  }
+
 }
 
 
