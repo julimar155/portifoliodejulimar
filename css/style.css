@@ -467,6 +467,111 @@ body {
     border-radius: 50%;
   }
 
+
+  .qualification_rounder {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 30%;
+    filter: blur(25px);
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+
+  .qualification_rounder1 {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    opacity: 30%;
+    margin-left: 15rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder2 {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 30%;
+    margin-left: 50rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder3 {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    opacity: 30%;
+    margin-left: 30rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder4 {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    opacity: 30%;
+    margin-left: -2rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_quader {
+    position:absolute;
+    width: 100px;
+    height:100px;
+    opacity: 30%;
+    margin-left: 2rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
+
+  .qualification_quader1 {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    opacity: 30%;
+    margin-left: 10rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
+  
+  .qualification_quader2 {
+    position:absolute;
+    width: 100px;
+    height:100px;
+    opacity: 30%;
+    margin-left: 15rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
+
 /*versão para telas 1920px*/
 
 @media (min-width:1920px) {
@@ -496,6 +601,110 @@ body {
 
 
 @media (max-width: 700px) {
+  
+  .qualification_rounder {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 30%;
+    filter: blur(25px);
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+
+  .qualification_rounder1 {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    opacity: 30%;
+    margin-left: 15rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder2 {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 30%;
+    margin-left: 15rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder3 {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    opacity: 30%;
+    margin-left: 10rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_rounder4 {
+    position:absolute;
+    width: 150px;
+    height:150px;
+    opacity: 30%;
+    margin-left: -2rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 50%;
+    justify-content: center;
+    
+  }
+
+  .qualification_quader {
+    position:absolute;
+    width: 100px;
+    height:100px;
+    opacity: 30%;
+    margin-left: -5rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
+
+  .qualification_quader1 {
+    position:absolute;
+    width: 100px;
+    height:100px;
+    opacity: 30%;
+    margin-left: 10rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
+  
+  .qualification_quader2 {
+    position:absolute;
+    width: 100px;
+    height:100px;
+    opacity: 30%;
+    margin-left: 5rem;
+    filter: blur(25px);
+    background: linear-gradient(to right, #3333cc 0%,   #66ffff 100%);
+    border-radius: 3%;
+    justify-content: center;
+    
+  }
   
   .cabecalho {
     font-family: 'Raleway', sans-serif;
