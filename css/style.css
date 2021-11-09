@@ -622,6 +622,7 @@ body {
     justify-content:center;
     position: absolute;
     margin-top:37rem;
+    margin-left:10rem;
     -webkit-tap-highlight-color: transparent;
   }
   .animated-word {
