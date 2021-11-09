@@ -100,13 +100,15 @@ body {
 .redes-sociais {
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 200;
+  text-decoration: none;
   margin-left:2rem;
 }
 
 .redes-sociais:hover {
   display: flex;
+  text-decoration: none;
   justify-content: center;
 }
 
@@ -116,6 +118,7 @@ body {
 
 .redes-sociais a {
   opacity: 80%;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -127,7 +130,7 @@ body {
   .icone-face:hover {
     opacity: 60%;
     transition:all ease-in-out 0.4s;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 100;
   }
 
@@ -138,7 +141,7 @@ body {
   .icone-insta:hover {
   opacity: 60%;
   transition:all ease-in-out 0.4s;
-  font-size: 45px;
+  font-size: 30px;
   }
 
 .icone-whatsapp {
@@ -149,7 +152,7 @@ body {
   .icone-whatsapp:hover {
     opacity: 60%;
     transition:all ease-in-out 0.4s;
-    font-size: 45px;
+    font-size: 30px;
   }
 
 .icone-linkedin {
@@ -159,7 +162,7 @@ body {
   .icone-linkedin:hover {
     opacity: 60%;
     transition:all ease-in-out 0.4s;
-    font-size: 45px;
+    font-size: 30px;
   }
 
 .portfolio {
@@ -264,7 +267,12 @@ body {
   margin-right: 1300px;
   margin-top:37rem; 
   float:right; 
+  position: fixed;
+  bottom: 50px;
   width:25px; 
+  color: lightgray;
+  padding: 5px;
+  border-radius: 10px;
   position:fixed; 
  -webkit-tap-highlight-color: transparent;
 }
@@ -436,11 +444,7 @@ body {
     transition: all ease-in-out 0.4s;
   }
   #btn-topo {
-    margin-right: 120rem;
-    margin-top:57rem; 
-    width:25px; 
-    position:fixed; 
-   -webkit-tap-highlight-color: transparent;
+    
   }
 
   
