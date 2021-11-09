@@ -49,6 +49,7 @@ body {
   max-width: 452px;
   box-sizing: border-box;
   margin: 0 auto;
+  
 }
 
 .box {
@@ -56,6 +57,9 @@ body {
   border-radius: 30px;
   text-align: center;
   margin-top: 8rem;
+  border: 0.4px;
+  border-color: lightgray;
+  border-style:solid;
 }
 
 .botao-descer {
@@ -456,6 +460,13 @@ body {
     z-index:3;
     margin: 14rem 7rem;
   }
+
+  .quadrado1 {
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    width: 30rem;
+    border-radius: 50%;
+  }
+
 /*versão para telas 1920px*/
 
 @media (min-width:1920px) {
