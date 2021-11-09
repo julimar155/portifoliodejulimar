@@ -615,6 +615,40 @@ body {
   }
 
 
+  .contai {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    margin-top:37rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .animated-word {
+    font-family: Helvetica;
+    letter-spacing: 0.2em;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    max-width: 600px; 
+    border-radius: 30px;
+    width: 100%; 
+    outline: 1px solid;
+    outline-color: #66ccff;
+    outline-offset: 20px;
+    transition: all 0.8s cubic-bezier(0.2, 0, 0, 0.8);
+  }
+  
+  .animated-word:hover {
+    color: #66ccff;
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 300px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
   .qualification_rounder1 {
     position:absolute;
     width: 50px;
