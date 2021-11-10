@@ -263,7 +263,7 @@
   <!--sessao skills-->
 
   <section>
-                  <h1 data-anime="top" class="skills">Conhecimentos</h1><br><br><br>
+                  <h1 data-anime="top" class="skills"><i style="color:#80aaff; opacity: 50%; font-weight: 500;" class="fal fa-head-side-brain"></i> Conhecimentos</h1><br><br><br>
                   <div class="wrapper">
                     <div data-anime="top" class="card">
                       <div class="circle">
@@ -308,14 +308,14 @@
                     startAngle: -1.55,
                     size: 150,
                     value: 0.60,
-                    fill: {gradient: ['#47c2d6', 'blue']}
+                    fill: {gradient: ['black', '#80aaff']}
                   }
                   $(".circle .bar").circleProgress(options).on('circle-animation-progress',
                   function(event, progress, stepValue){
                     $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
                   });
                   $(".js .bar").circleProgress({
-                    value: 0.37
+                    value: 0.40
                   });
                   $(".react .bar").circleProgress({
                     value: 0.40
@@ -328,7 +328,7 @@
 
 <section>
                     <div class="portfolio box" data-anime="bellow">
-                      <h1 data-anime="top" class="title">Trabalhos</h1>
+                      <h1 data-anime="top" class="skills"><i style="color:#80aaff; opacity: 50%;" class="fal fa-briefcase"></i> Trabalhos</h1>
                       <ul class="textos">
                         <li>
                           <img style="border-radius:100%;" src="img/1.png" alt="1" />
@@ -338,11 +338,18 @@
                             <p style="font-weight: 200; text-align: center;">
                               Meu ponto de partida nesta área foi o desenvolvimento de telas de login, cabeçalhos responsivos em html, css e js, autenticação de usuário e encriptação de senha em php e mysql. Recentemente terminei o desenvolvimento do site da empresa na qual trabalho hodiernamente: quality do brasil, onde consiste em um site moderno e abrangente no qual o cliente tem acesso aos serviços da empresa diretamente pela àrea do cliente. Usando tecnologias atuais como html, css, bootstrap, php, javaScript entre outras linguagens.
                             </p>
-                            <br><div class="botao-projeto"><a class="texto-botao-projeto"  target="_blank" href="https://qualitylaudos.com.br">Projeto 1</a></div><br>
+                            <br>
+                            <div style="margin-left: 5rem;" class="button">
+                              <a target="_blank" href="https://qualitylaudos.com.br" class="button button--flex"><i class="fal fa-badge-check"></i> Projeto 1</a>
+                            </div><br><br>
+                            <!--<div class="botao-projeto"><a class="texto-botao-projeto"  target="_blank" href="https://qualitylaudos.com.br">Projeto 1</a></div><br>-->
                             <p style="font-weight: 200; text-align: center;">
                               Ademais estou desenvolvendo projetos de automação em php e javascript, portifólios e landing pages. Clique em Projeto para ver mais:
-                            </p><br>
-                            <div class="botao-projeto"><a class="texto-botao-projeto"  target="_blank" href="https://kevinlucca.netlify.app">Projeto 2</a></div><br>
+                            </p><br><br>
+                            <!--<div class="botao-projeto"><a class="texto-botao-projeto"  target="_blank" href="https://kevinlucca.netlify.app">Projeto 2</a></div><br>-->
+                            <div style="margin-left: 5rem;" class="button">
+                              <a target="_blank" href="https://kevinlucca.netlify.app" class="button button--flex"><i class="fal fa-badge-check"></i> Projeto 2</a>
+                            </div>
                           </div>
                         </li>
                         <li>
