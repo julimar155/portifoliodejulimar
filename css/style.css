@@ -579,6 +579,37 @@ body {
   .header-top {
     width: 2500px;
   }
+
+  .cabecalho {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    z-index:3;
+    margin: 19rem 2rem;
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    color: transparent;
+    font-size:200px;
+  }
+
+  .cabecalho-iam {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-weight: 700;
+    z-index:3;
+    font-size:40px;
+    margin: 19rem 5rem;
+  }
+
+  .cabecalho-aboutme {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-weight: 200;
+    z-index:3;
+    font-size: 35px;
+    margin: 32.5rem 2rem;
+  }
   
   .botao-descer {
     position:absolute;
