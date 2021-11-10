@@ -391,10 +391,11 @@ body {
   }
 
   .button {
-    display: inline-block;
+    display: block;
     background: #0e3685;
     -webkit-tap-highlight-color: transparent;
     color: white;
+    text-align: center;
     padding:1rem;
     border-radius: 20px;
     font-weight: 500;
