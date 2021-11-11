@@ -572,7 +572,6 @@ body {
   }
 
 
-
 /*versão para telas 1920px*/
 
 @media (min-width:1920px) {
@@ -666,7 +665,7 @@ body {
     padding: 0.2rem;
     border-radius: 10px;
     position:fixed; 
-   -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
   }
  
 
