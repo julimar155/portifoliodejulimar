@@ -700,7 +700,7 @@ body {
     color: #000019; 
     opacity: 45%;
     padding: 0.1rem;
-    border-radius: 10px;
+    border-radius: 50%;
     position:fixed; 
     -webkit-tap-highlight-color: transparent;
     transition: all ease-in-out 0.3s;
