@@ -655,11 +655,9 @@ body {
   }
 
   #btn-topo {
-    background: linear-gradient(to right, #66bdff 0%, #191961 100%);
-    padding: 0.2rem;
+    background: linear-gradient(to right, #66c2ff 0%, #191961 100%);
+    padding: 0.1rem;
     color: #000019;
-    position: fixed;
-    margin-left:25rem;
     text-align: center;
    }
  
@@ -903,6 +901,16 @@ body {
     font-size: 14px;
     padding: 2rem;
     text-align: center;
+  }
+
+  #btn-topo {
+    margin-top:45rem;
+    opacity: 60%;
+    z-index: 4; 
+    float:right; 
+    width:25px; 
+    position:fixed; 
+   -webkit-tap-highlight-color: transparent;
   }
 
   .habilidades {
