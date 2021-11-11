@@ -571,6 +571,19 @@ body {
    -webkit-tap-highlight-color: transparent;
   }
 
+  #btn-topo:hover {
+    margin-top:37rem; 
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    text-align: center;
+    color: #000019; 
+    opacity: 45%;
+    padding: 0.1rem;
+    border-radius: 10px;
+    position:fixed; 
+    -webkit-tap-highlight-color: transparent;
+    transition: all ease-in-out 0.3s;
+  }
+
 
 /*versão para telas 1920px*/
 
@@ -633,6 +646,18 @@ body {
     position:fixed; 
    -webkit-tap-highlight-color: transparent;
   }
+  #btn-topo:hover {
+    margin-top:37rem; 
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    text-align: center;
+    color: #000019; 
+    opacity: 45%;
+    padding: 0.1rem;
+    border-radius: 10px;
+    position:fixed; 
+    -webkit-tap-highlight-color: transparent;
+    transition: all ease-in-out 0.3s;
+  }
 
 
 
@@ -666,6 +691,19 @@ body {
     border-radius: 10px;
     position:fixed; 
     -webkit-tap-highlight-color: transparent;
+  }
+
+  #btn-topo:hover {
+    margin-top:37rem; 
+    background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+    text-align: center;
+    color: #000019; 
+    opacity: 45%;
+    padding: 0.1rem;
+    border-radius: 10px;
+    position:fixed; 
+    -webkit-tap-highlight-color: transparent;
+    transition: all ease-in-out 0.3s;
   }
  
 
