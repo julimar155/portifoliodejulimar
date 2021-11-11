@@ -271,13 +271,11 @@ body {
 }
 
 #btn-topo {
-  margin-right: 1300px;
   margin-top:37rem; 
   float:right; 
   position: fixed;
   bottom: 50px;
   width:25px; 
-  color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 10px;
   position:fixed; 
@@ -573,6 +571,13 @@ body {
     
   }
 
+  #btn-topo {
+    background: linear-gradient(to right, #66ffff 0%, #191961 100%);
+    padding: 0.2rem;
+    color: #000019;
+    text-align: center;
+   }
+
 /*versão para telas 1920px*/
 
 @media (min-width:1920px) {
@@ -623,7 +628,10 @@ body {
     transition: all ease-in-out 0.4s;
   }
   #btn-topo {
-    
+   background: linear-gradient(to right, #66ffff 0%, #3333cc 100%);
+   padding: 0.4rem;
+   color: #000019;
+   text-align: center;
   }
 
   
@@ -645,6 +653,16 @@ body {
     justify-content: center;
     
   }
+
+  #btn-topo {
+    background: linear-gradient(to right, #66bdff 0%, #191961 100%);
+    padding: 0.2rem;
+    color: #000019;
+    position: fixed;
+    margin-left:25rem;
+    text-align: center;
+   }
+ 
 
 
   .contai {
@@ -885,17 +903,6 @@ body {
     font-size: 14px;
     padding: 2rem;
     text-align: center;
-  }
-
-  #btn-topo {
-    margin-right: 350px;
-    margin-top:45rem;
-    opacity: 60%;
-    z-index: 4; 
-    float:right; 
-    width:25px; 
-    position:fixed; 
-   -webkit-tap-highlight-color: transparent;
   }
 
   .habilidades {
