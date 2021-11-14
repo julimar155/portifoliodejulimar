@@ -569,7 +569,7 @@ body {
     width: 30px;
     height: 30px;
     color:#000019;
-    background-color:#37377e;
+    background: #0e3685;
     border-radius:20%;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
@@ -636,8 +636,7 @@ body {
     width: 30px;
     height: 30px;
     color:#000019;
-    background-color:#37377e;
-    border-radius:20%;
+    background: #0e3685;
     text-decoration: none;
    -webkit-tap-highlight-color: transparent;
   }
@@ -673,7 +672,7 @@ body {
     width: 30px;
     height: 30px;
     color:#000019;
-    background-color:#37377e;
+    background: #0e3685;
     border-radius:20%;
     text-decoration: none;
    -webkit-tap-highlight-color: transparent;
