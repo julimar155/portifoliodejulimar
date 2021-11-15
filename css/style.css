@@ -72,6 +72,7 @@ label {
   float: right;
   border-radius: 100px;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 
 label::after{
