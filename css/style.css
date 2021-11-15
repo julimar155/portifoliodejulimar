@@ -24,14 +24,15 @@ li {
 /*light/darktheme*/
 
 .darkmode {
-  --primary-color: lightgray;
-  --secondary-color: #000019; 
-}
-
-:root{
   --primary-color: #000019;
   --color-text:black;
   --secondary-color:  lightgray;
+}
+
+:root{
+
+  --primary-color: lightgray;
+  --secondary-color: #000019; 
 }
 
 
