@@ -20,17 +20,39 @@ li {
   transition: all ease-in-out 0.4s;
   scroll-behavior: smooth;
 }
+
+/*light/darktheme*/
+
+.dark-mode {
+  --primary-color: lightgray;
+  --secondary-color: #000019; 
+}
+
+:root {
+  --primary-color: #000019;
+  --color-text:black;
+  --secondary-color:  lightgray;
+}
+
+
+/*light/darktheme*/
+
+
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #000019; 
-  background-attachment: fixed;
-  background-size: cover;
-  display: grid;
+  background-color: var(--secondary-color); 
   align-items: center;
+  display:grid;
   justify-items: center;
-  height: 100vh;
-  color:lightgray;
+  color:var(--primary-color);
 }
+
+.darkmodeToogle:checked + body {
+  
+
+}
+
+
 
 .container {
   padding: 0 20px;
@@ -58,7 +80,7 @@ body {
   text-align: center;
   margin-top: 8rem;
   border: 0.4px;
-  border-color: lightgray;
+  border-color: var(--color-text);
   border-style:solid;
 }
 
@@ -130,7 +152,7 @@ body {
 }
 
 .icone-face {
-  color:white;
+  color:var( --color-text);
   transition:all ease-in-out 0.4s;
 }
 
@@ -142,7 +164,7 @@ body {
   }
 
 .icone-insta {
-  color:white;
+  color:var( --color-text);
   transition:all ease-in-out 0.4s;
 }
   .icone-insta:hover {
@@ -152,7 +174,7 @@ body {
   }
 
 .icone-whatsapp {
-  color:white;
+  color:var( --color-text);
   transition:all ease-in-out 0.4s;
 }
 
@@ -163,7 +185,7 @@ body {
   }
 
 .icone-linkedin {
-  color:white;
+  color:var( --color-text);
   transition:all ease-in-out 0.4s;
 }
   .icone-linkedin:hover {
@@ -186,7 +208,6 @@ body {
   grid-template-columns: 1fr 1fr;
   text-align: left;
   gap: 2rem;
-  color: lightgray;
 }
 
 .portfolio li + li {
@@ -575,6 +596,28 @@ body {
     -webkit-tap-highlight-color: transparent;
   }
 
+  .lua1 {
+    display: flex;
+    cursor:pointer;
+    left:10px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    width: 45px;
+    height: 30px;
+    color:lightgray;
+    background: #04092c;
+    border-radius:20%;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .lua1:after {
+    content:'off';
+  }
+
+
 
 /*versão para telas 1920px*/
 
@@ -641,6 +684,32 @@ body {
    -webkit-tap-highlight-color: transparent;
   }
 
+  /*cabeçalho*/
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
 
 
   
@@ -650,6 +719,8 @@ body {
 
 
 @media (max-width: 700px) {
+
+  
   
   .qualification_rounder {
     position: absolute;
@@ -875,7 +946,6 @@ body {
   body {
     background-attachment: absolute;
     background-size: contain;
-    background-color:#000011;
   }
 
   .header-top {
@@ -970,7 +1040,7 @@ body {
 .card .circle .too{
   height: 100%;
   width: 100%;
-  background: linear-gradient(to left, #000000 -2%, #000026 100%);
+  background: var(--secondary-color);
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0.8);
   transition: all 0.6s;
@@ -980,10 +1050,10 @@ body {
 }
 .card .circle .too span,
 .wrapper .card .text{
-  background: lightgray;
+  background: var(--color-text);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
+
 .circle .too span{
   font-size: 38px;
   font-family: sans-serif;
