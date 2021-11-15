@@ -741,7 +741,7 @@ p, h1,h2,h3,h4,h5,span,div {
     right: 10px;
     width: 30px;
     height: 30px;
-    color:var(--secondary-color);
+    color: var(--bg);
     background: #0e3685;
     text-decoration: none;
    -webkit-tap-highlight-color: transparent;
@@ -805,7 +805,7 @@ p, h1,h2,h3,h4,h5,span,div {
     right: 10px;
     width: 30px;
     height: 30px;
-    color:var(--secondary-color);
+    color: var(--bg);
     background: #0e3685;
     border-radius:20%;
     text-decoration: none;
