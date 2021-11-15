@@ -70,7 +70,7 @@ label {
   height: 27px;
   background: rgb(191, 191, 191);
   float: right;
-  border-radius: 100px;
+  border-radius: 10px;
   position: relative;
   -webkit-tap-highlight-color: transparent;
 }
@@ -83,7 +83,7 @@ label::after{
   width: 20px;
   height: 20px;
   background-color: white;
-  border-radius: 90px;
+  border-radius: 8px;
   transition: 0.6s;
 }
 
@@ -669,15 +669,8 @@ p, h1,h2,h3,h4,h5,span,div {
     bottom: 10px;
     width: 45px;
     height: 30px;
-    color:lightgray;
-    background: #04092c;
-    border-radius:20%;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-  }
-
-  .lua1:after {
-    content:'off';
   }
 
 
