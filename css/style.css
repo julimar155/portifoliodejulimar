@@ -673,7 +673,7 @@ body {
     right: 10px;
     width: 30px;
     height: 30px;
-    color:#000019;
+    color:var(--secondary-color);
     background: #0e3685;
     text-decoration: none;
    -webkit-tap-highlight-color: transparent;
@@ -737,7 +737,7 @@ body {
     right: 10px;
     width: 30px;
     height: 30px;
-    color:#000019;
+    color:var(--secondary-color);
     background: #0e3685;
     border-radius:20%;
     text-decoration: none;
