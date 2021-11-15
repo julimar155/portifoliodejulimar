@@ -107,6 +107,7 @@ body {
   align-items: center;
   display:grid;
   justify-items: center;
+  transition: all ease-in-out 0.6s;
 }
 
 
