@@ -88,7 +88,7 @@ label::after{
 }
 
 input:checked + label {
-  background-color: var(--color-headings);
+  background-color: #0e3685;
 }
 
 input:checked + label::after {
@@ -389,7 +389,7 @@ p, h1,h2,h3,h4,h5,span,div {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000066;
+  background-color: #0e3685;
   z-index:999;
   }
           
