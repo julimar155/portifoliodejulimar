@@ -23,12 +23,12 @@ li {
 
 /*light/darktheme*/
 
-.dark-mode {
+.darkmode {
   --primary-color: lightgray;
   --secondary-color: #000019; 
 }
 
-:root {
+:root{
   --primary-color: #000019;
   --color-text:black;
   --secondary-color:  lightgray;
@@ -45,11 +45,6 @@ body {
   display:grid;
   justify-items: center;
   color:var(--primary-color);
-}
-
-.darkmodeToogle:checked + body {
-  
-
 }
 
 
@@ -589,7 +584,7 @@ body {
     right: 10px;
     width: 30px;
     height: 30px;
-    color:#000019;
+    color: var(--secondary-color);
     background: #0e3685;
     border-radius:20%;
     text-decoration: none;
